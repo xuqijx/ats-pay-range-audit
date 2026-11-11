@@ -1,0 +1,156 @@
+{
+  "disclaimer": "Synthetic snapshot. Not a recording of a real employer.",
+  "fictional": true,
+  "jobs": [
+    {
+      "board": "hearth-and-quill",
+      "company": "Hearth & Quill (fictional)",
+      "error": null,
+      "job_id": "job-g",
+      "observation": "unknown",
+      "provider": "ashby",
+      "ranges": [],
+      "reason": "field_not_in_response",
+      "structured_range": "unknown",
+      "summary": null,
+      "title": "Unobserved Role",
+      "url": "https://jobs.ashbyhq.com/hearth-and-quill/job-g"
+    },
+    {
+      "board": "hearth-and-quill",
+      "company": "Hearth & Quill (fictional)",
+      "error": null,
+      "job_id": "job-a",
+      "observation": "valid",
+      "provider": "ashby",
+      "ranges": [
+        {
+          "currency": "USD",
+          "label": "Zone A",
+          "max": 90000,
+          "min": 80000,
+          "period": "1 YEAR",
+          "source": "compensation_tiers",
+          "summary": null
+        }
+      ],
+      "reason": "salary_bounds",
+      "structured_range": "present",
+      "summary": null,
+      "title": "Lantern Archivist",
+      "url": "https://jobs.ashbyhq.com/hearth-and-quill/job-a"
+    },
+    {
+      "board": "hearth-and-quill",
+      "company": "Hearth & Quill (fictional)",
+      "error": null,
+      "job_id": "job-e",
+      "observation": "valid",
+      "provider": "ashby",
+      "ranges": [
+        {
+          "currency": "USD",
+          "label": null,
+          "max": 200,
+          "min": 100,
+          "period": "1 YEAR",
+          "source": "compensation_tiers",
+          "summary": null
+        }
+      ],
+      "reason": "salary_bounds",
+      "structured_range": "present",
+      "summary": null,
+      "title": "Range Removed Role",
+      "url": "https://jobs.ashbyhq.com/hearth-and-quill/job-e"
+    },
+    {
+      "board": "hearth-and-quill",
+      "company": "Hearth & Quill (fictional)",
+      "error": null,
+      "job_id": "job-b",
+      "observation": "valid",
+      "provider": "ashby",
+      "ranges": [
+        {
+          "currency": "USD",
+          "label": null,
+          "max": 2,
+          "min": 1,
+          "period": "1 YEAR",
+          "source": "compensation_tiers",
+          "summary": null
+        }
+      ],
+      "reason": "salary_bounds",
+      "structured_range": "present",
+      "summary": null,
+      "title": "Removed Role",
+      "url": "https://jobs.ashbyhq.com/hearth-and-quill/job-b"
+    },
+    {
+      "board": "hearth-and-quill",
+      "company": "Hearth & Quill (fictional)",
+      "error": null,
+      "job_id": "job-d",
+      "observation": "explicit_empty",
+      "provider": "ashby",
+      "ranges": [],
+      "reason": "empty_object",
+      "structured_range": "absent",
+      "summary": null,
+      "title": "Empty Then Filled",
+      "url": "https://jobs.ashbyhq.com/hearth-and-quill/job-d"
+    },
+    {
+      "board": "hearth-and-quill",
+      "company": "Hearth & Quill (fictional)",
+      "error": null,
+      "job_id": "job-f",
+      "observation": "valid",
+      "provider": "ashby",
+      "ranges": [
+        {
+          "currency": "USD",
+          "label": null,
+          "max": 6,
+          "min": 5,
+          "period": "1 YEAR",
+          "source": "compensation_tiers",
+          "summary": null
+        }
+      ],
+      "reason": "salary_bounds",
+      "structured_range": "present",
+      "summary": null,
+      "title": "Later Unknown",
+      "url": "https://jobs.ashbyhq.com/hearth-and-quill/job-f"
+    },
+    {
+      "board": "hearth-and-quill",
+      "company": "Hearth & Quill (fictional)",
+      "error": null,
+      "job_id": "job-h",
+      "observation": "valid",
+      "provider": "ashby",
+      "ranges": [
+        {
+          "currency": "USD",
+          "label": "old label",
+          "max": 8,
+          "min": 7,
+          "period": "1 YEAR",
+          "source": "compensation_tiers",
+          "summary": null
+        }
+      ],
+      "reason": "salary_bounds",
+      "structured_range": "present",
+      "summary": null,
+      "title": "Label Only",
+      "url": "https://jobs.ashbyhq.com/hearth-and-quill/job-h"
+    }
+  ],
+  "schema_version": 1,
+  "tool": "ats-pay-range-audit"
+}

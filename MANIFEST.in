@@ -1,0 +1,13 @@
+graft fixtures
+graft examples
+graft tests
+graft src
+include setup.py
+include LICENSE
+include README.md
+include pyproject.toml
+prune build
+prune dist
+prune src/ats_pay_range_audit.egg-info
+global-exclude __pycache__
+global-exclude *.py[cod]

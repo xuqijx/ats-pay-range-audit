@@ -1,0 +1,104 @@
+{
+  "fictional": true,
+  "disclaimer": "Synthetic fixture. Not a recording of a real employer and not a live board response.",
+  "provider": "ashby",
+  "mode": "mapped",
+  "body": {
+    "apiVersion": "1",
+    "compensation": {
+      "compensationTiers": [
+        {
+          "title": "Do not copy onto jobs",
+          "components": [
+            {
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 515151,
+              "maxValue": 515152
+            }
+          ]
+        }
+      ]
+    },
+    "jobs": [
+      {
+        "id": "empty-object",
+        "title": "Empty Vessel",
+        "jobUrl": "https://jobs.ashbyhq.com/hearth-and-quill/empty-object",
+        "compensation": {}
+      },
+      {
+        "id": "null-comp",
+        "title": "Null Vessel",
+        "jobUrl": "https://jobs.ashbyhq.com/hearth-and-quill/null-comp",
+        "compensation": null
+      },
+      {
+        "id": "summary-only",
+        "title": "Summary Vessel",
+        "jobUrl": "https://jobs.ashbyhq.com/hearth-and-quill/summary-only",
+        "compensation": {
+          "scrapeableCompensationSalarySummary": "SUMMARY-SENTINEL-81K"
+        }
+      },
+      {
+        "id": "equity-only",
+        "title": "Equity Vessel",
+        "jobUrl": "https://jobs.ashbyhq.com/hearth-and-quill/equity-only",
+        "compensation": {
+          "compensationTiers": [
+            {
+              "title": "Paper zone",
+              "components": [
+                {
+                  "compensationType": "EquityPercentage",
+                  "interval": "NONE",
+                  "currencyCode": null,
+                  "minValue": 0.5,
+                  "maxValue": 1.75,
+                  "summary": "0.5% to 1.75%"
+                },
+                {
+                  "compensationType": "Bonus",
+                  "interval": "1 YEAR",
+                  "currencyCode": "USD",
+                  "minValue": 1000,
+                  "maxValue": 2000,
+                  "summary": "bonus is not salary"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "missing-key",
+        "title": "Missing Vessel",
+        "jobUrl": "https://jobs.ashbyhq.com/hearth-and-quill/missing-key"
+      },
+      {
+        "id": "valid-salary",
+        "title": "Valid Vessel",
+        "jobUrl": "https://jobs.ashbyhq.com/hearth-and-quill/valid-salary",
+        "compensation": {
+          "compensationTiers": [
+            {
+              "title": "Zone A",
+              "components": [
+                {
+                  "compensationType": "Salary",
+                  "interval": "1 HOUR",
+                  "currencyCode": "eur",
+                  "minValue": 40,
+                  "maxValue": null,
+                  "summary": "hourly open top"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

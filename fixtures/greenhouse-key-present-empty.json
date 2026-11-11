@@ -1,0 +1,46 @@
+{
+  "fictional": true,
+  "disclaimer": "Synthetic fixture. Not a recording of a real employer and not a live board response.",
+  "provider": "greenhouse",
+  "mode": "mapped",
+  "list": {
+    "jobs": [
+      {
+        "id": 101,
+        "title": "Lantern Keeper",
+        "absolute_url": "https://boards.greenhouse.io/northwind-fictional/jobs/101",
+        "content": "CONTENT-SENTINEL-77000 is prose, not a structured range.",
+        "pay_input_ranges": []
+      },
+      {
+        "id": 102,
+        "title": "Quill Binder",
+        "absolute_url": "https://boards.greenhouse.io/northwind-fictional/jobs/102",
+        "pay_input_ranges": [
+          {
+            "min_cents": 42424200,
+            "max_cents": 43434300,
+            "currency_type": "USD",
+            "title": "This list value must be ignored"
+          }
+        ]
+      }
+    ],
+    "meta": { "total": 2 }
+  },
+  "details": {
+    "101": {
+      "id": 101,
+      "title": "Lantern Keeper",
+      "absolute_url": "https://boards.greenhouse.io/northwind-fictional/jobs/101",
+      "content": "CONTENT-SENTINEL-77000 still is not structured.",
+      "pay_input_ranges": []
+    },
+    "102": {
+      "id": 102,
+      "title": "Quill Binder",
+      "absolute_url": "https://boards.greenhouse.io/northwind-fictional/jobs/102",
+"pay_input_ranges": []
+    }
+  }
+}
