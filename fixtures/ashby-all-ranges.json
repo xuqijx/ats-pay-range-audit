@@ -1,0 +1,77 @@
+{
+  "fictional": true,
+  "disclaimer": "Synthetic fixture. Not a recording of a real employer and not a live board response.",
+  "provider": "ashby",
+  "mode": "mapped",
+  "body": {
+    "apiVersion": "1",
+    "jobs": [
+      {
+        "id": "job-c",
+        "title": "Night Cartographer",
+        "jobUrl": "https://jobs.ashbyhq.com/hearth-and-quill/job-c",
+        "isListed": true,
+        "compensation": {
+          "scrapeableCompensationSalarySummary": "Zone B base, not a second parsed range",
+          "compensationTiers": [
+            {
+              "title": "Zone B",
+              "components": [
+                {
+                  "compensationType": "EquityPercentage",
+                  "interval": "NONE",
+                  "currencyCode": null,
+                  "minValue": 0.1,
+                  "maxValue": 0.4,
+                  "summary": "0.1% to 0.4%"
+                },
+                {
+                  "compensationType": "Salary",
+                  "interval": "1 YEAR",
+                  "currencyCode": "usd",
+                  "minValue": 90000,
+                  "maxValue": 110000,
+                  "summary": "Zone B base"
+                }
+              ]
+            }
+          ],
+          "summaryComponents": [
+            {
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 1,
+              "maxValue": 2,
+              "summary": "do not use this duplicate aggregate"
+            }
+          ]
+        }
+      },
+      {
+        "id": "job-a",
+        "title": "Lantern Archivist",
+        "jobUrl": "https://jobs.ashbyhq.com/hearth-and-quill/job-a",
+        "isListed": true,
+        "compensation": {
+          "compensationTierSummary": "Estimated 80000 to 95000",
+          "compensationTiers": [
+            {
+              "title": "Zone A",
+              "components": [
+                {
+                  "compensationType": "Salary",
+                  "interval": "1 YEAR",
+                  "currencyCode": "USD",
+                  "minValue": 80000,
+                  "maxValue": 95000,
+                  "summary": "Do not parse a different amount out of this label"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

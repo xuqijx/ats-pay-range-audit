@@ -1,0 +1,5 @@
+boards:
+  - provider: ashby
+    board: hearth-and-quill
+    name: "Hearth & Quill (fictional)"
+    fixture: ../fixtures/ashby-all-ranges.json

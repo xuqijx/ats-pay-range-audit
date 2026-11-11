@@ -1,0 +1,6 @@
+boards:
+  - provider: lever
+    board: paper-kite
+    name: Paper Kite (fictional)
+    region: eu
+    fixture: ../fixtures/lever-no-structured-field.json

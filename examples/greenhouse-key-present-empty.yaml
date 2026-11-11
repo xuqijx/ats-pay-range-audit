@@ -1,0 +1,5 @@
+boards:
+  - provider: greenhouse
+    board: northwind-fictional
+    name: Northwind Lantern (fictional)
+    fixture: ../fixtures/greenhouse-key-present-empty.json

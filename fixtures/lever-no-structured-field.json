@@ -1,0 +1,17 @@
+{
+  "fictional": true,
+  "disclaimer": "Synthetic fixture. Not a recording of a real employer and not a live board response.",
+  "provider": "lever",
+  "mode": "mapped",
+  "body": [
+    {
+      "id": "post-paper-1",
+      "text": "Quill Binder",
+      "categories": { "location": "Fictional Harbor", "team": "Paper" },
+      "hostedUrl": "https://jobs.lever.co/paper-kite/post-paper-1",
+      "description": "Pay narrative DESC-SENTINEL-190000 to DESC-SENTINEL-230000 appears only in prose.",
+      "descriptionPlain": "DESC-SENTINEL-190000",
+      "salaryDescription": "<p>HTML-SENTINEL-180000</p>"
+    }
+  ]
+}

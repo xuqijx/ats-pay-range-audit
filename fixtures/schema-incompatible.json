@@ -1,0 +1,10 @@
+{
+  "fictional": true,
+  "disclaimer": "Synthetic fixture. Not a recording of a real employer and not a live board response.",
+  "provider": "ashby",
+  "mode": "mapped",
+  "body": {
+    "apiVersion": "1",
+    "jobs": "not-an-array"
+  }
+}

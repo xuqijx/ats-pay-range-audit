@@ -1,0 +1,81 @@
+{
+  "fictional": true,
+  "disclaimer": "Synthetic fixture. Not a recording of a real employer and not a live board response.",
+  "provider": "greenhouse",
+  "mode": "mapped",
+  "list": {
+    "jobs": [
+      {
+        "id": 10,
+        "title": "Harbor Clerk",
+        "absolute_url": "http://evil.example/steal",
+        "pay_input_ranges": []
+      },
+      {
+        "id": 12,
+        "title": "Map Mender",
+        "absolute_url": "https://boards.greenhouse.io/northwind-fictional/jobs/12",
+        "pay_input_ranges": [
+          {
+            "min_cents": 43434301,
+            "max_cents": 43434302,
+            "currency_type": "USD"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Bell Founder",
+        "absolute_url": "https://boards.greenhouse.io/northwind-fictional/jobs/11",
+        "pay_input_ranges": [
+          {
+            "min_cents": 42424201,
+            "max_cents": 42424202,
+            "currency_type": "USD"
+          }
+        ]
+      }
+    ],
+    "meta": { "total": 9 }
+  },
+  "details": {
+    "10": {
+      "id": 10,
+      "title": "Harbor Clerk",
+      "absolute_url": "https://boards.greenhouse.io/northwind-fictional/jobs/10",
+      "pay_input_ranges": [
+        {
+          "min_cents": "2000000",
+          "max_cents": 1000000,
+          "currency_type": "eur",
+          "title": "Euro band",
+          "blurb": "BLURB-SENTINEL-99"
+        },
+        {
+          "min_cents": 5000000,
+          "max_cents": 5000050,
+          "currency_type": "USD",
+          "title": "Dollar band"
+        }
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Bell Founder",
+      "absolute_url": "https://boards.greenhouse.io/northwind-fictional/jobs/11"
+    },
+    "12": {
+      "id": 12,
+      "title": "Map Mender",
+      "absolute_url": "https://boards.greenhouse.io/northwind-fictional/jobs/12",
+      "pay_input_ranges": [
+        {
+          "min_cents": 3000000,
+          "max_cents": 4000000,
+          "currency_type": "USD",
+          "title": "Fetched only inside the detail budget"
+        }
+      ]
+    }
+  }
+}
